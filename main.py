@@ -11,6 +11,7 @@ root.configure(bg='light blue')
 #AQI 
 def get_aqi(world):
     city = textbox1.get()
+    print(city)
     key='37f96394ffe8b6cca1110af3d8270604c711c688'
     url='http://api.waqi.info/feed/' + city + '/?token='
     main_url = url + key  # Main URL
